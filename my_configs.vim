@@ -14,6 +14,15 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# => Have line numbers for all files
+" => Have line numbers for all files
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set number
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Easier split navigationseeeeee
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
